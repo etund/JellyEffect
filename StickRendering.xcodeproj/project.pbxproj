@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8042D7D01B4C1C7F0026FF3F /* ETBubbing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8042D7CF1B4C1C7F0026FF3F /* ETBubbing.m */; };
+		807FB9B71B3ABB8F00DF1794 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 807FB9B61B3ABB8F00DF1794 /* main.m */; };
+		807FB9BA1B3ABB8F00DF1794 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 807FB9B91B3ABB8F00DF1794 /* AppDelegate.m */; };
+		807FB9BD1B3ABB8F00DF1794 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807FB9BC1B3ABB8F00DF1794 /* ViewController.m */; };
+		807FB9C01B3ABB8F00DF1794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807FB9BE1B3ABB8F00DF1794 /* Main.storyboard */; };
+		807FB9C21B3ABB8F00DF1794 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807FB9C11B3ABB8F00DF1794 /* Images.xcassets */; };
+		807FB9C51B3ABB8F00DF1794 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 807FB9C31B3ABB8F00DF1794 /* LaunchScreen.xib */; };
+		807FB9D11B3ABB8F00DF1794 /* StickRenderingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 807FB9D01B3ABB8F00DF1794 /* StickRenderingTests.m */; };
+		807FB9DC1B3AC17300DF1794 /* ETStickBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 807FB9DB1B3AC17300DF1794 /* ETStickBtn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		807FB9CB1B3ABB8F00DF1794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807FB9A91B3ABB8F00DF1794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 807FB9B01B3ABB8F00DF1794;
+			remoteInfo = StickRendering;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8042D7CE1B4C1C7F0026FF3F /* ETBubbing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBubbing.h; sourceTree = "<group>"; };
+		8042D7CF1B4C1C7F0026FF3F /* ETBubbing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBubbing.m; sourceTree = "<group>"; };
+		807FB9B11B3ABB8F00DF1794 /* StickRendering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickRendering.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		807FB9B51B3ABB8F00DF1794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807FB9B61B3ABB8F00DF1794 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		807FB9B81B3ABB8F00DF1794 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		807FB9B91B3ABB8F00DF1794 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		807FB9BB1B3ABB8F00DF1794 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		807FB9BC1B3ABB8F00DF1794 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		807FB9BF1B3ABB8F00DF1794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		807FB9C11B3ABB8F00DF1794 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		807FB9C41B3ABB8F00DF1794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		807FB9CA1B3ABB8F00DF1794 /* StickRenderingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickRenderingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		807FB9CF1B3ABB8F00DF1794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807FB9D01B3ABB8F00DF1794 /* StickRenderingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickRenderingTests.m; sourceTree = "<group>"; };
+		807FB9DA1B3AC17300DF1794 /* ETStickBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETStickBtn.h; sourceTree = "<group>"; };
+		807FB9DB1B3AC17300DF1794 /* ETStickBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETStickBtn.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		807FB9AE1B3ABB8F00DF1794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807FB9C71B3ABB8F00DF1794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		807FB9A81B3ABB8F00DF1794 = {
+			isa = PBXGroup;
+			children = (
+				807FB9B31B3ABB8F00DF1794 /* StickRendering */,
+				807FB9CD1B3ABB8F00DF1794 /* StickRenderingTests */,
+				807FB9B21B3ABB8F00DF1794 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		807FB9B21B3ABB8F00DF1794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				807FB9B11B3ABB8F00DF1794 /* StickRendering.app */,
+				807FB9CA1B3ABB8F00DF1794 /* StickRenderingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		807FB9B31B3ABB8F00DF1794 /* StickRendering */ = {
+			isa = PBXGroup;
+			children = (
+				807FB9B81B3ABB8F00DF1794 /* AppDelegate.h */,
+				807FB9B91B3ABB8F00DF1794 /* AppDelegate.m */,
+				807FB9BB1B3ABB8F00DF1794 /* ViewController.h */,
+				807FB9BC1B3ABB8F00DF1794 /* ViewController.m */,
+				807FB9BE1B3ABB8F00DF1794 /* Main.storyboard */,
+				807FB9C11B3ABB8F00DF1794 /* Images.xcassets */,
+				807FB9C31B3ABB8F00DF1794 /* LaunchScreen.xib */,
+				807FB9B41B3ABB8F00DF1794 /* Supporting Files */,
+				807FB9DA1B3AC17300DF1794 /* ETStickBtn.h */,
+				807FB9DB1B3AC17300DF1794 /* ETStickBtn.m */,
+				8042D7CE1B4C1C7F0026FF3F /* ETBubbing.h */,
+				8042D7CF1B4C1C7F0026FF3F /* ETBubbing.m */,
+			);
+			path = StickRendering;
+			sourceTree = "<group>";
+		};
+		807FB9B41B3ABB8F00DF1794 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				807FB9B51B3ABB8F00DF1794 /* Info.plist */,
+				807FB9B61B3ABB8F00DF1794 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		807FB9CD1B3ABB8F00DF1794 /* StickRenderingTests */ = {
+			isa = PBXGroup;
+			children = (
+				807FB9D01B3ABB8F00DF1794 /* StickRenderingTests.m */,
+				807FB9CE1B3ABB8F00DF1794 /* Supporting Files */,
+			);
+			path = StickRenderingTests;
+			sourceTree = "<group>";
+		};
+		807FB9CE1B3ABB8F00DF1794 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				807FB9CF1B3ABB8F00DF1794 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		807FB9B01B3ABB8F00DF1794 /* StickRendering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807FB9D41B3ABB8F00DF1794 /* Build configuration list for PBXNativeTarget "StickRendering" */;
+			buildPhases = (
+				807FB9AD1B3ABB8F00DF1794 /* Sources */,
+				807FB9AE1B3ABB8F00DF1794 /* Frameworks */,
+				807FB9AF1B3ABB8F00DF1794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickRendering;
+			productName = StickRendering;
+			productReference = 807FB9B11B3ABB8F00DF1794 /* StickRendering.app */;
+			productType = "com.apple.product-type.application";
+		};
+		807FB9C91B3ABB8F00DF1794 /* StickRenderingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807FB9D71B3ABB8F00DF1794 /* Build configuration list for PBXNativeTarget "StickRenderingTests" */;
+			buildPhases = (
+				807FB9C61B3ABB8F00DF1794 /* Sources */,
+				807FB9C71B3ABB8F00DF1794 /* Frameworks */,
+				807FB9C81B3ABB8F00DF1794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				807FB9CC1B3ABB8F00DF1794 /* PBXTargetDependency */,
+			);
+			name = StickRenderingTests;
+			productName = StickRenderingTests;
+			productReference = 807FB9CA1B3ABB8F00DF1794 /* StickRenderingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		807FB9A91B3ABB8F00DF1794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ET;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = etund;
+				TargetAttributes = {
+					807FB9B01B3ABB8F00DF1794 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					807FB9C91B3ABB8F00DF1794 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 807FB9B01B3ABB8F00DF1794;
+					};
+				};
+			};
+			buildConfigurationList = 807FB9AC1B3ABB8F00DF1794 /* Build configuration list for PBXProject "StickRendering" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 807FB9A81B3ABB8F00DF1794;
+			productRefGroup = 807FB9B21B3ABB8F00DF1794 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				807FB9B01B3ABB8F00DF1794 /* StickRendering */,
+				807FB9C91B3ABB8F00DF1794 /* StickRenderingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		807FB9AF1B3ABB8F00DF1794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807FB9C01B3ABB8F00DF1794 /* Main.storyboard in Resources */,
+				807FB9C51B3ABB8F00DF1794 /* LaunchScreen.xib in Resources */,
+				807FB9C21B3ABB8F00DF1794 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807FB9C81B3ABB8F00DF1794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		807FB9AD1B3ABB8F00DF1794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8042D7D01B4C1C7F0026FF3F /* ETBubbing.m in Sources */,
+				807FB9BD1B3ABB8F00DF1794 /* ViewController.m in Sources */,
+				807FB9BA1B3ABB8F00DF1794 /* AppDelegate.m in Sources */,
+				807FB9DC1B3AC17300DF1794 /* ETStickBtn.m in Sources */,
+				807FB9B71B3ABB8F00DF1794 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807FB9C61B3ABB8F00DF1794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807FB9D11B3ABB8F00DF1794 /* StickRenderingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		807FB9CC1B3ABB8F00DF1794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 807FB9B01B3ABB8F00DF1794 /* StickRendering */;
+			targetProxy = 807FB9CB1B3ABB8F00DF1794 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		807FB9BE1B3ABB8F00DF1794 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				807FB9BF1B3ABB8F00DF1794 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		807FB9C31B3ABB8F00DF1794 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				807FB9C41B3ABB8F00DF1794 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		807FB9D21B3ABB8F00DF1794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		807FB9D31B3ABB8F00DF1794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		807FB9D51B3ABB8F00DF1794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StickRendering/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		807FB9D61B3ABB8F00DF1794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StickRendering/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		807FB9D81B3ABB8F00DF1794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StickRenderingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StickRendering.app/StickRendering";
+			};
+			name = Debug;
+		};
+		807FB9D91B3ABB8F00DF1794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StickRenderingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StickRendering.app/StickRendering";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		807FB9AC1B3ABB8F00DF1794 /* Build configuration list for PBXProject "StickRendering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807FB9D21B3ABB8F00DF1794 /* Debug */,
+				807FB9D31B3ABB8F00DF1794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807FB9D41B3ABB8F00DF1794 /* Build configuration list for PBXNativeTarget "StickRendering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807FB9D51B3ABB8F00DF1794 /* Debug */,
+				807FB9D61B3ABB8F00DF1794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807FB9D71B3ABB8F00DF1794 /* Build configuration list for PBXNativeTarget "StickRenderingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807FB9D81B3ABB8F00DF1794 /* Debug */,
+				807FB9D91B3ABB8F00DF1794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 807FB9A91B3ABB8F00DF1794 /* Project object */;
+}
